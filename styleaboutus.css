@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section__text__p1 {
+    text-align: center;
+  }
+
+.satu{
+  text-align: center;
+}
+.navbar {
+    background-color: #004d40;
+    color: white;
+    padding: 1rem 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.about-us-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dua {
+    text-align: center;
+  }
+  .team {
+    position: relative; 
+    margin: 10px;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  .team img {
+    width: 100%;
+    position:static; 
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .team h2 {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .team p {
+    font-size: 14px;
+    margin: 10px;
+    color: #666;
+  }

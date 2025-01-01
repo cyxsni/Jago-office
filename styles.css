@@ -1,0 +1,238 @@
+/* General Styles */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #004d40;
+    color: white;
+    padding: 1rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Dropdown Submenu */
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #004d40;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.submenu li {
+    width: 200px;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.submenu li a:hover {
+    background-color: #00897b;
+}
+
+/* Call to Action Button */
+.cta-buttons a {
+    background-color: #00bfa5;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.cta-buttons a:hover {
+    background-color: #00897b;
+}
+
+/* Content Section */
+.content {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+}
+
+.content .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: #666;
+}
+/* Hero Section */
+.hero {
+    background-color: #00695c;
+    color: white;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #00bfa5;
+    margin-right: 1rem;
+}
+
+.btn-secondary {
+    background-color: #004d40;
+}
+
+.hero-image img {
+    max-width: 300px;
+    margin-left: 60px;
+}
+/* Categories Section */
+.categories {
+    padding: 2rem 0;
+    background-color: #f8fafc;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  
+  .category-cards {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .category-card {
+    width: 200px; /* Mengatur lebar kartu */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05); /* Animasi zoom saat hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .category-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 1rem;
+  }
+  
+  .category-card h3 {
+    font-size: 1.2rem;
+    color: #1e3a8a;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category-card p {
+    font-size: 1rem;
+    color: #334155;
+    margin-bottom: 1rem;
+  }
+  
+  .category-btn {
+    padding: 0.5rem 1rem;
+    background-color: #004d40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .category-btn:hover {
+    background-color: #00897b; /* Warna tombol berubah saat hover */
+  }
+  
+/* Footer */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
